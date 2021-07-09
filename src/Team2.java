@@ -54,5 +54,10 @@ public class Team2 {
             System.out.println(number2 + " is more or equals to 100 ");
         }
 
+        double number3 = 1.5;
+        double number4 = 2.35;
+        int sum = (int) (number3 + number4) ;
+        System.out.println("Sum of two numbers is " + sum);
+
     }
 }
