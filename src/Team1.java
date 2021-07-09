@@ -32,5 +32,11 @@ public class Team1 {
         }
         else {
             System.out.println("It is False that Nr1 is smaller than Nr2"); }
+
+        if (nr1 == nr2) {
+            System.out.println("nr1 is equal nr2");
+        }
+        else {
+            System.out.println("nr1 and nr2 are not equal"); }
     }
 }
