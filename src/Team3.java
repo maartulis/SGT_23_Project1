@@ -1,3 +1,5 @@
+import java.text.DecimalFormat;
+
 public class Team3 {
    /**
      Task 01 - conditions, comparison, basic calculation (45 min)
@@ -96,12 +98,13 @@ public class Team3 {
         System.out.println("The sum of the two numbers is: " + sum);
 
         double difference = (double)(number1 - number2);
+        DecimalFormat format = new DecimalFormat("0.00");
         if (difference < 0) {
-            double differenceNegative = difference * (-1.00);
-            System.out.println("The difference of the two numbers is: " + differenceNegative);
+            double differenceNegative = (difference * (-1.00));
+            System.out.println("The difference of the two numbers is: " + format.format(differenceNegative));
         }
         else {
-            System.out.println("The difference of the two numbers is: " + difference);
+            System.out.println("The difference of the two numbers is: " + format.format(difference));
         }
         System.out.println("I am the Java program.");
 
