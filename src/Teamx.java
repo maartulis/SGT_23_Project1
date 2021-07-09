@@ -1,4 +1,4 @@
-public class Team1 {
+public class Teamx {
 <<<<<<< HEAD
     public static void main (String[] args) {
         // Create two variables with the type short.
