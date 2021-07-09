@@ -16,10 +16,12 @@ public class Team1 {
      ●      Calculate differences between both numbers, output it as positive number with two numbers after the coma
      * */
     public static void main(String[] args) {
-        // System.out.println("I am the Java program.");
 
+        //variables
         short nr1 = 7;
         short nr2 = 100;
+
+        //which variable is the largest
         if (nr1 > nr2) {
             System.out.println("Nr1 is larger than Nr2");
         }
@@ -27,20 +29,21 @@ public class Team1 {
             System.out.println("Nr2 is larger than Nr1");
         }
 
+        //which variable is the smallest
         if (nr1 < nr2) {
             System.out.println("It is True that Nr1 is smaller than Nr2");
         }
         else {
             System.out.println("It is False that Nr1 is smaller than Nr2"); }
 
+        //if both variables are equals
         if (nr1 == nr2) {
             System.out.println("nr1 is equal nr2");
         }
         else {
             System.out.println("nr1 and nr2 are not equal"); }
 
-
-
+        //odd (uneven)
         if  ( nr1 % 2 == 0 ) {
             System.out.println("Nr1 is not odd");
         }
@@ -56,8 +59,7 @@ public class Team1 {
         {
             System.out.println("Nr2 Is odd");}
 
-
-
+        //odd (uneven)
         if  ( nr1 % 2 == 0 ) {
             System.out.println("Nr1 is even");
         }
