@@ -31,7 +31,18 @@ public class Team1 {
 
      * */
     public static void main(String[] args) {
-        System.out.println("I am the Java program.");
+        // System.out.println("I am the Java program.");
+
+        short nr1 = 7;
+        short nr2 = 100;
+        if (nr1 > nr2) {
+            System.out.println("Nr1 is larger than Nr2");
+        }
+        else {
+            System.out.println("Nr2 is larger than Nr1");
+        }
+
+
     }
 }
 
