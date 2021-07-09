@@ -38,5 +38,42 @@ public class Team1 {
         }
         else {
             System.out.println("nr1 and nr2 are not equal"); }
+
+
+
+        if  ( nr1 % 2 == 0 ) {
+            System.out.println("Nr1 is not odd");
+        }
+        else
+        {
+            System.out.println("Nr1 Is odd");}
+
+
+        if  ( nr2 % 2 == 0 ) {
+            System.out.println("Nr2 is not odd");
+        }
+        else
+        {
+            System.out.println("Nr2 Is odd");}
+
+
+
+        if  ( nr1 % 2 == 0 ) {
+            System.out.println("Nr1 is even");
+        }
+        else
+        {
+            System.out.println("Nr1 Is not even");}
+
+        if  ( nr2 % 2 == 0 ) {
+            System.out.println("Nr2 is even");
+        }
+        else
+        {
+            System.out.println("Nr2 Is not even");}
+
+
+
+
     }
 }
