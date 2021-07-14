@@ -21,23 +21,23 @@ public class Calculator_Team4 {
 
         switch (sign) {
             case '+':
-                System.out.println(num1 + num2);
+                System.out.println("The sum is " + (num1 + num2));
                 break;
             case '-':
-                System.out.println(num1 - num2);
+                System.out.println("The subtraction is " + (num1 - num2));
                 break;
             case '/':
                 float result = ((float)num1/num2);
                 System.out.println(result);
                 break;
             case '*':
-                System.out.println(num1*num2);
+                System.out.println("The multiplication is " + (num1*num2));
                 break;
             case '%':
-                System.out.println(num1%num2);
+                System.out.println("The remainder is " + (num1%num2));
                 break;
             case 'p':
-                System.out.println(num1 + " " + num2);
+                System.out.println("Entered numbers are " + num1 + " " + num2);
                 break;
             case 'b':
                 if (num1>num2) {
