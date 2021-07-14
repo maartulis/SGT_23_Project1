@@ -33,13 +33,9 @@ public class Task1 {
 
     public static void main(String[] args) {
         System.out.println("I am the Java program.");
-    }
 
 
-    short x, y;
 
-    x = 100;
-    y = 4000;
 
 //    if(a>b)
 //    {
@@ -48,12 +44,6 @@ public class Task1 {
 //        System.out.println(b + " is the largest value");
 //    }
 
-    if(num1<num2)
-    {
-        System.out.println(a + " is the smallest value");
-    } else {
-        System.out.println(b + " is the smallest value");
-    }
 
 
 
