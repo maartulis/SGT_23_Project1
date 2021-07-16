@@ -32,7 +32,7 @@ public class From_Santa {
 //
 //     3. Print first, last and some other element from array.
 
-        System.out.println("First element is " + elementsArray[0] + ", last element is " + elementsArray[4] + ", fouth element is " + elementsArray[3]);
+        System.out.println("First element is " + elementsArray[0] + ", last element is " + elementsArray[4] + ", fourth element is " + elementsArray[3]);
 //
 //     4. Calculate and output sum of all elements in the array.
 
