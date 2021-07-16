@@ -9,7 +9,7 @@ public class Array1stTask_fromAlexandra {
         //Initialize the array elements by users input
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter the 1st element of your array: ");
+        /**System.out.println("Enter the 1st element of your array: ");
         newArray [0] = scan.nextInt();
         System.out.println("Enter the 2nd element of your array: ");
         newArray [1] = scan.nextInt();
@@ -18,7 +18,11 @@ public class Array1stTask_fromAlexandra {
         System.out.println("Enter the 4th element of your array: ");
         newArray [3] = scan.nextInt();
         System.out.println("Enter the 5th element of your array: ");
-        newArray [4] = scan.nextInt();
+        newArray [4] = scan.nextInt();*/
+
+        for (int i=0; i<5; i++) {
+            System.out.println("Enter elements of the array: " + i);
+            newArray [i] = scan.nextInt();}
 
         scan.close();
 
