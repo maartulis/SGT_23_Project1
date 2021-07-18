@@ -41,7 +41,7 @@ public class MarinaMArray1 {
 
         System.out.println("****************************************");
         //5. print length of the array.
-        System.out.println("The lenghth of array is: " + myArray.length);
+        System.out.println("The length of array is: " + myArray.length);
 
         System.out.println("*****************************************");
         //6. Print all five elements using for loop
