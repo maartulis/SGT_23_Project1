@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 /**
  * 3. Write a program which asks user to input the size of array. Declare and initialize array of
@@ -19,22 +20,24 @@ import java.util.Scanner;
 public class RoomTeam3ArrayLoops {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.print("Enter the size of the array: ");
+        System.out.print("Please enter count of numbers: ");
         int size = s.nextInt();
         int[] array = new int[size];
         for (int i = 0; i < size; i++) {
-            System.out.print("Please enter number: ");
+            System.out.print((i+1) + "." + " please enter number: ");
             array[i] = s.nextInt();
         }
-        //for (int i = 0; i < size; i++) {
-            //System.out.println(array[i]);
-        //}
+
         System.out.println("Output:");
         int sum = 0;
         for (int i = 0; i < size; i++) {
             sum = sum + array[i];
         }
         float average = (float) sum/size;
-        System.out.println("The average is " + average);
+        System.out.print("The average of ");
+        for (int i = 0; i < size; i++) {
+            System.out.print(array[i] + " ");
+        }
+        System.out.println("is " + average);
     }
 }
