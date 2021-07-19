@@ -31,7 +31,7 @@ public class Array1stTask__byLiene{
             int[] myArray = new int[5];
             System.out.println(myArray.length);
 
-            System.out.println("**********");
+            System.out.println("******0****");
 
             //6. Print all five elements using for loop
             int[] myList3 = {num0, num1, num2, num3, num4};
