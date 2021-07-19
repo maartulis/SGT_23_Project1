@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Room2_Class10ArraysLoops {
     /**
 
@@ -18,7 +20,23 @@ public class Room2_Class10ArraysLoops {
      Average of 2 4 4 6 is 4
 
      * */
+    public static void main(String[] args) {
 
-    System.out.println("Please enter count of numbers: ");
+        Scanner scan = new Scanner(System.in);
 
+        System.out.println("Enter the size of array: ");
+        int sizeOfArray = scan.nextInt();
+
+        for (int i=0; i<sizeOfArray; i++) {
+            System.out.println("Enter the number of the array: " + );
+        }
+
+        scan.close();
+
+        int [] newArray = new int [sizeOfArray];
+
+
+
+        System.out.println("Please enter count of numbers: ");
+    }
 }
