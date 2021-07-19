@@ -2,7 +2,7 @@
 package com.company;
 import java.util.Scanner;
 
-public class MarinaMArray {
+public class MarinaMArray1 {
 
     public static void main(String[] args) {
         // 1. Create an array with int type which consists of 5 elements
@@ -41,7 +41,7 @@ public class MarinaMArray {
 
         System.out.println("****************************************");
         //5. print length of the array.
-        System.out.println("The lenghth of array is: " + myArray.length);
+        System.out.println("The length of array is: " + myArray.length);
 
         System.out.println("*****************************************");
         //6. Print all five elements using for loop
