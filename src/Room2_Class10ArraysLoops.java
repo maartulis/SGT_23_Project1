@@ -22,21 +22,35 @@ public class Room2_Class10ArraysLoops {
      * */
     public static void main(String[] args) {
 
+
         Scanner scan = new Scanner(System.in);
+
 
         System.out.println("Enter the size of array: ");
         int sizeOfArray = scan.nextInt();
-
-        for (int i=0; i<sizeOfArray; i++) {
-            System.out.println("Enter the number of the array: " + );
-        }
-
-        scan.close();
+        System.out.println("Please enter " + sizeOfArray + " numbers");
+        int elementsOfArray = scan.nextInt();
 
         int [] newArray = new int [sizeOfArray];
 
 
 
-        System.out.println("Please enter count of numbers: ");
+
+
+//        int [] newArray = new int [sizeOfArray];
+//
+//
+//
+//        for (int i=0; i<sizeOfArray; i++) {
+//            newArray
+//        }
+//
+//        scan.close();
+
+
+
+
+
+//        System.out.println("Please enter count of numbers: ");
     }
 }
