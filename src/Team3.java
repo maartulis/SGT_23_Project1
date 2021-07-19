@@ -106,6 +106,7 @@ public class Team3 {
         else {
             System.out.println("The difference of the two numbers is: " + format.format(difference));
         }
+
         System.out.println("I am the Java program.");
 
 
