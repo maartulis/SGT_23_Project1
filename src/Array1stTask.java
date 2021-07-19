@@ -1,59 +1,4 @@
-import java.util.Scanner;
-
 public class Array1stTask {
-
-    public static void main(String[] args) {
-
-        //1. Create an array with int type which consists of 5 elements
-        //2. initialize values.
-        Scanner scan = new Scanner(System.in);
-        int num0 = scan.nextInt();
-        int num1 = scan.nextInt();
-        int num2 = scan.nextInt();
-        int num3 = scan.nextInt();
-        int num4 = scan.nextInt();
-
-        System.out.println("**********");
-
-        //3. Print first, last and some other element from array.
-        System.out.println(num0);
-        System.out.println(num4);
-        System.out.println(num2);
-
-        System.out.println("**********");
-
-        //4. Calculate and output sum of all elements in the array.
-        System.out.println(num0 + num1 + num2 + num3 + num4);
-
-        System.out.println("**********");
-
-        // 5. print length of the array.
-        int[] myArray = new int[5];
-        System.out.println(myArray.length);
-
-        System.out.println("**********");
-
-        //6. Print all five elements using for loop
-        int[] myList3 = {num0, num1, num2, num3, num4};
-        System.out.println(num0);
-        System.out.println(num1);
-        System.out.println(num2);
-        System.out.println(num3);
-        System.out.println(num4);
-
-        System.out.println(" *********** ");
-        for (int i = 0; i < 5; i++) {
-            System.out.println(myList3[i]);
-        }
-
-        //<bonus>
-        //     7. Change program - initialization of values should be taken from user's input.
-
-
-
-
-    }
-}
     /**
 
      Practical part 1 (individual, 30-60 min):
@@ -87,4 +32,4 @@ public class Array1stTask {
      System.out.println(myList3[i]);
      }
      */
-
+}
