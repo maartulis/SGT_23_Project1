@@ -36,8 +36,13 @@ public class From_Santa {
 //
 //     4. Calculate and output sum of all elements in the array.
 
-        System.out.println("The sum of all elements is " + (elementsArray[0] + elementsArray[1] + elementsArray[2] + elementsArray[3] + elementsArray[4]));
+        //System.out.println("The sum of all elements is " + (elementsArray[0] + elementsArray[1] + elementsArray[2] + elementsArray[3] + elementsArray[4]));
 
+        int sum = 0;
+        for (int i = 0; i < elementsArray.length; i++) {
+            sum = sum + elementsArray[i];
+            System.out.println("Sum of all the elements in the array: " + sum);
+        }
 //
 //     5. print length of the array.
 
