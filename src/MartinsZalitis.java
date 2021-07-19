@@ -1,7 +1,4 @@
-public class 0MartinsZalitis {
-    public static void main(String[] args) {
 
-        System.out.println("Martins here");
 
         //Class 10 individual tasks:
         //*
