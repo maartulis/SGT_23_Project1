@@ -28,11 +28,11 @@ public class Class11LoopExamples_Alexandra {
 //Task 2
         System.out.println("*** TASK 2 - FOR LOOP ***");
         for (int i = 1; i <= 20; i = i + 2) {
-            System.out.print(i + " ,");
-            if(i >= 17){
-                System.out.println(i + " ");
+            if(i == 19) {
+                System.out.print(i);
                 break;
             }
+                System.out.print(i + " ,");
         }
     }
 }
