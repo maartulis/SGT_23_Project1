@@ -18,13 +18,10 @@ public class LailaDArrays {
         System.out.println("-------------------------------------");
         int[] anotherArray = {30, 15, 15, 3, 15, 12, 13};
         Arrays.sort(anotherArray);
-        int maxVal = anotherArray[0];
+        int maxVal = anotherArray[anotherArray.length - 1];
         int secondMaxVal = anotherArray[0];
         for (int i = 0; i < anotherArray.length; i++) {
-            if (anotherArray[i] > maxVal) {
-                secondMaxVal = maxVal;
-                maxVal = anotherArray[i];
-            } else if (anotherArray[i] > secondMaxVal) {
+            if (anotherArray[i] > secondMaxVal && anotherArray[i] < maxVal) {
                 secondMaxVal = anotherArray[i];
             }
         }
