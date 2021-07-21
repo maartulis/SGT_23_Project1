@@ -5,11 +5,13 @@ public class Class10Tasks_Anna_Aija_Liene {
         /* 3. Write a program which asks user to input the size of array. Declare and initialize array of
         whole numbers with such size. Then ask user to input numbers and fill the array.*/
 
+/*
         int x;
         System.out.println("Please enter count of number:");
         for (int i = 0; i<x.length; i++){
         Scanner scan = new Scanner(System.in);
             int x = scan.nextInt();}
+*/
 
 
         /* Then use this array to calculate and output the average value of elements in this array.
