@@ -6,10 +6,7 @@ public class From_Santa {
 
         Scanner scanner = new Scanner(System.in);
 
-//
-//
-//     Practical part 1 (individual, 30-60 min):
-//
+
 //     1. Create an array with int type which consists of 5 elements
 
         int[] elementsArray = new int[5];
@@ -41,8 +38,8 @@ public class From_Santa {
         int sum = 0;
         for (int i = 0; i < elementsArray.length; i++) {
             sum = sum + elementsArray[i];
-            System.out.println("Sum of all the elements in the array: " + sum);
         }
+        System.out.println("Sum of all the elements in the array: " + sum);
 //
 //     5. print length of the array.
 
@@ -54,8 +51,15 @@ public class From_Santa {
         System.out.print("All elements of the array are: ");
         System.out.println(" ");
 
-        for (int i = 0; i < elementsArray.length; i++) {
-            System.out.println(elementsArray[i]);
+        int a = 0;
+        for (a = 0; a < elementsArray.length; a++) {
+            if (a < elementsArray.length - 1) {
+                System.out.print(elementsArray[a] + ", ");
+            } else
+            {
+                System.out.print(elementsArray[elementsArray.length-1]);
+            }
         }
+
     }
 }
