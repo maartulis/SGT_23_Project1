@@ -1,7 +1,9 @@
 public class SantaKolosovska {
     public static void main(String[] args) {
+        // initializing an array
         int[] myArray = {1, 6, 3, 50, 3, 12};
 
+        // printing out all the numbers of array
         System.out.print("All the numbers of array: ");
         System.out.println(" ");
 
@@ -9,6 +11,7 @@ public class SantaKolosovska {
             System.out.println(myArray[i]);
         }
 
+        //printing out all the numbers of array in reverse order
         System.out.print("All the numbers of array in reverse order: ");
         System.out.println(" ");
 
@@ -21,6 +24,7 @@ public class SantaKolosovska {
 
         int[] myArray2 = {30, 15, 15, 3, 15, 12, 13};
 
+        // finding the smallest number
         int a = myArray2[0];
         for (int i = 0; i < myArray2.length; i++){
             if (myArray2[i] < a) {
@@ -29,6 +33,7 @@ public class SantaKolosovska {
         }
         System.out.println("Smallest number in the array is " + a);
 
+        // finding the largest number
         int b = myArray2[0];
         for (int i = 0; i < myArray2.length; i++){
             if (myArray2[i] > b){
@@ -36,6 +41,7 @@ public class SantaKolosovska {
             }
         }
 
+        // finding the second largest number
         int c = a;
         for (int i = 0; i < myArray2.length; i++){
             if ((myArray2[i] < b) && myArray2[i]>c){
