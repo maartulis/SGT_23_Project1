@@ -1,68 +1,91 @@
+import java.util.Scanner;
+
 public class HeroApp_Room4_Santa_Alexandra_Alina {
 
         public static void main(String[] args) {
 
-            // Variable initialization
-            String heroName;
-            String heroCity;
+            //Menu for User
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Hello in Hero Application!");
+            System.out.println("1 - I want to see the list of superheroes.");
+            System.out.println("2 - I want to see the information about the Hero.");
+            System.out.println("3 - I want to create a new Hero.");
+            System.out.println("Choose an option, please:");
+            int menuOption = scan.nextInt();
 
-            String heroPower1, heroPower2, heroPower3;
+            String[] heroNameArray = {"1. AliexpressMan", "2. Survivor", "3. The Cook"};
 
-            boolean isEvil;
+            if (menuOption==1) {
+                for (int i = 0; i < heroNameArray.length; i++) {
+                    System.out.println("* "+ heroNameArray[i]);
+                }
+            }
 
-            double heroSalary;
-            String realName;
+            System.out.println("Enter number of Hero to see more information:");
+            int heroNumber = scan.nextInt();
 
-            String universe;
+            switch (heroNumber)
+            {
+                case 1:
+                    // Variable initialization
+                    String heroName;
+                    String heroCity;
 
-            // Variable assignment
-            heroName = "AliexpressMan";
-            heroCity = "Dobele";
-            heroPower1 = "Super discounts";
-            heroPower2 = "Fast delivery";
-            heroPower3 = "";
-            isEvil = true;
-            heroSalary = 99.99;
-            realName = "Artjoms";
-            universe = "Ours";
+                    String heroPower1, heroPower2, heroPower3;
 
-            // Print out Hero information card
-            System.out.println("***************************");
-            System.out.println("*** HERO INFORMATION ***");
-            System.out.println("***************************");
+                    boolean isEvil;
 
-            System.out.println("Hero name: " + heroName);
-            System.out.println("This hero lives in  " + heroCity);
+                    double heroSalary;
+                    String realName;
 
-            System.out.println("----------------------------");
-            System.out.println("Hero Superpowers:");
-            System.out.println("---" + heroPower1);
-            System.out.println("---" + heroPower2);
-            System.out.println("---" + heroPower3);
+                    String universe;
 
-            System.out.println("This super hero is evil? " + isEvil);
+                    // Variable assignment
+                    heroName = "AliexpressMan";
+                    heroCity = "Dobele";
+                    heroPower1 = "Super discounts";
+                    heroPower2 = "Fast delivery";
+                    heroPower3 = "";
+                    isEvil = true;
+                    heroSalary = 99.99;
+                    realName = "Artjoms";
+                    universe = "Ours";
+                    // Print out Hero information card
+                    System.out.println("***************************");
+                    System.out.println("*** HERO INFORMATION ***");
+                    System.out.println("***************************");
 
-            System.out.println("This hero earns: " + heroSalary + " EUR");
-            System.out.println( realName + " hides his identity.");
-            System.out.println("Hero lives in " + universe + " Universe");
-            System.out.println();
-            System.out.println("***************************");
-            System.out.println("*** HERO INFORMATION ***");
-            System.out.println("***************************");
+                    System.out.println("Hero name: " + heroName);
+                    System.out.println("This hero lives in  " + heroCity);
 
+                    System.out.println("----------------------------");
+                    System.out.println("Hero Superpowers:");
+                    System.out.println("---" + heroPower1);
+                    System.out.println("---" + heroPower2);
+                    System.out.println("---" + heroPower3);
 
+                    System.out.println("This super hero is evil? " + isEvil);
 
-
-
-            // If a hero is a villain or a hero
-            if(isEvil) {
-                System.out.println( " Hero is a villain. he is stealing cookies!!!");
-            } else {
-                System.out.println("hero protects the city!");
+                    System.out.println("This hero earns: " + heroSalary + " EUR");
+                    System.out.println( realName + " hides his identity.");
+                    System.out.println("Hero lives in " + universe + " Universe");
+                    System.out.println();
+                    System.out.println("***************************");
+                    System.out.println("*** HERO INFORMATION ***");
+                    System.out.println("***************************");
+                    // If a hero is a villain or a hero
+                    if(isEvil) {
+                        System.out.println( " Hero is a villain. he is stealing cookies!!!");
+                    } else {
+                        System.out.println("hero protects the city!");
+                    }
+                    break;
+                default:
+             System.out.println("Error! Unknown Hero! Sorry!");
             }
 
 
-            heroCity = "Metropolis";
+            /**heroCity = "Metropolis";
 
             switch (heroCity) {
                 case "New York":
@@ -86,7 +109,7 @@ public class HeroApp_Room4_Santa_Alexandra_Alina {
             int numOfCookies = (int)Math.floor(heroSalary / 1.29);
             System.out.println(" Hero can purchase " + numOfCookies + " cookies");
             double averageDailySalary = Math.round( (heroSalary / 30 )  ) ;
-            System.out.println(" Hero average daily salary is " + averageDailySalary + " euro");
+            System.out.println(" Hero average daily salary is " + averageDailySalary + " euro");*/
 
 
 
