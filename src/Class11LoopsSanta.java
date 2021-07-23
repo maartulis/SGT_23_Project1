@@ -1,13 +1,16 @@
 public class Class11LoopsSanta {
     public static void main(String[] args) {
-
+        System.out.println(" ");
         System.out.println("FIRST TASK*****************");
+        System.out.println(" ");
+
         System.out.println("--- 1. for loop ---");
 
         for (int x = -10; x <= 10; x++){
         System.out.println(x);
         }
 
+        System.out.println(" ");
         System.out.println("--- 1. while loop ---");
 
         int y = -10;
@@ -16,6 +19,7 @@ public class Class11LoopsSanta {
             y++;
         }
 
+        System.out.println(" ");
         System.out.println("--- 1. do while loop ---");
 
         int z = - 10;
@@ -25,6 +29,7 @@ public class Class11LoopsSanta {
         } while (z <= 10);
 
 
+        System.out.println(" ");
         System.out.println("SECOND TASK*****************");
 
         System.out.println(" ");
