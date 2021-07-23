@@ -24,6 +24,10 @@ public class LailaDArrays {
             if (anotherArray[i] > secondMaxVal && anotherArray[i] < maxVal) {
                 secondMaxVal = anotherArray[i];
             }
+
+        }
+        for (int j : anotherArray) {
+            System.out.println(j);
         }
 
         System.out.println("The second largest number in the array is " + secondMaxVal);
