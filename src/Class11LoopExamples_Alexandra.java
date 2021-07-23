@@ -37,12 +37,13 @@ public class Class11LoopExamples_Alexandra {
         System.out.println("   ");
         System.out.println("*** TASK 2 - WHILE LOOP ***");
         int z=1;
-        while (z < 20){
-                System.out.print(z + ", ");
-                z=z+2;
-        } if (z==19) {
-            System.out.print(z);
-            //break; - I NEED THIS??? Hmm
+        while (z < 20) {
+            System.out.print(z + ", ");
+            z = z + 2;
+            if (z == 19) {
+                System.out.print(z);
+                break;
+            }
         }
     }
 }
