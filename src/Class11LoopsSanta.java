@@ -57,12 +57,14 @@ public class Class11LoopsSanta {
 
 
 
-//        int count = 0;
+//        int count = 0;   // skaitīs elementus
 //        for (int a = 1; a < 20; a = a + 2){
 //            count++;
 //        }
 //
 //        int [] arrayX = new int [count];
+
+
 
 
 
