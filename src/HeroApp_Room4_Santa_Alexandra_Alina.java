@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.Scanner;
 
 public class HeroApp_Room4_Santa_Alexandra_Alina {
@@ -15,14 +16,23 @@ public class HeroApp_Room4_Santa_Alexandra_Alina {
 
             String[] heroNameArray = {"1. AliexpressMan", "2. Survivor", "3. The Cook"};
 
+            //Menu option 1
             if (menuOption==1) {
                 for (int i = 0; i < heroNameArray.length; i++) {
                     System.out.println("* "+ heroNameArray[i]);
                 }
+                System.out.println("Enter number of Hero to see more information:");
             }
-
-            System.out.println("Enter number of Hero to see more information:");
             int heroNumber = scan.nextInt();
+
+            //Menu option 2
+            if (menuOption==2) {
+                for (int i = 0; i < heroNameArray.length; i++) {
+                    System.out.println("* "+ heroNameArray[i]);
+                }
+                System.out.println("Enter Hero number to continue:");
+            }
+            int heroNumber1 = scan.nextInt();
 
             switch (heroNumber)
             {
@@ -129,8 +139,6 @@ public class HeroApp_Room4_Santa_Alexandra_Alina {
                     } else {
                         System.out.println("Hero cleans up garbage!");
                     }
-
-
                     break;
                 case 3:
                     // Variable initialization
@@ -190,6 +198,12 @@ public class HeroApp_Room4_Santa_Alexandra_Alina {
                 default:
              System.out.println("Error! Unknown Hero! Sorry!");
             }
+
+
+
+
+            //String[] heroNameArray = {"1. AliexpressMan", "2. Survivor", "3. The Cook"};
+
 
 
             /**heroCity = "Metropolis";
@@ -275,7 +289,7 @@ public class HeroApp_Room4_Santa_Alexandra_Alina {
 
             // BUSINESS REQUIREMENTS FOR LESSON #12
             // 1. I would like to see a MENU to select different parts of superhero information card
-            // 2. A list of superheroes
+            // 2. A list of superheroes DONE
             // 3. Add new superhero
             // 4. show specific superhero information
             // 5. Delete the superhero from the list
