@@ -1,0 +1,2 @@
+public class SuperHeroRoom3 {
+}
