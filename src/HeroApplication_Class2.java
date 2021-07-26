@@ -1,4 +1,4 @@
-import java.awt.*;
+/** import java.awt.*;
 import java.util.Scanner;
 public class HeroApplication_Class2 {
     public static void main(String[] args) {
@@ -201,4 +201,4 @@ public class HeroApplication_Class2 {
 
 
     }
-}
+} */
