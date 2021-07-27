@@ -32,27 +32,35 @@ Write a program to process String variables:
 
 
             for (int i = 0; i < myArray.length; i++) {
-                //starts with C
+                //STARTS WITH C
                 if (myArray[i].charAt(0) == 'C') {
                     countFirstLetter++;
                     //System.out.println(countFirstLetter);
                 }
-                //ends with i
+                //ENDS WITH i
+                //1st option:
+                /*
+                if (myArray[i].charAt(myArray[i].length()-1) == 'i') {
+                countLastLetter++;
+                //System.out.println(countLastLetter);
+                }
+                */
+                //2nd option
                 if (myArray[i].matches(".*i$")) {
                     countLastLetter++;
                     //System.out.println(countLastLetter);
                 }
-                //length 5
+                //LENGTH == 5
                 if (myArray[i].length() == 5) {
                     countLength++;
                 }
-                //letter e inside
+                //CONTAINS LETTER e
                 if (myArray[i].matches(".*e.*")) {
                     countLetter++;
                     //System.out.println(countLetter);
                     //System.out.println(myArray[i]);
                 }
-                //element "en" inside
+                //CONTAINS ELEMENT "en"
                 if (myArray[i].matches(".*en.*")) {
                     countElement++;
                 }
@@ -67,7 +75,7 @@ Write a program to process String variables:
             if (countElement != 0) {
                 System.out.println("There is an element with \"en\" inside ");
             }
-            //numerical array with names lengths
+            //NUMERICAL ARRAY WITH NAMES LENGTHS
             System.out.println("The lengths array is: ");
             int[] nameLength = new int[myArray.length];
             for (int j = 0; j < myArray.length; j++) {
@@ -75,6 +83,5 @@ Write a program to process String variables:
                 System.out.print(nameLength[j] + " ");
             }
         }
-
 
 }
